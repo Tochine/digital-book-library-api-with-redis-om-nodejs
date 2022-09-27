@@ -1,0 +1,15 @@
+{
+  "name": "redis-om-developer-experience",
+  "version": "1.0.0",
+  "main":  "./src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --trace-warnings . ./src/app.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "redis-om": "^0.3.6"
+  }
+}
